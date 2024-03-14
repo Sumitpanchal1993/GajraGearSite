@@ -1,0 +1,30 @@
+.home{
+  display:flex;
+  padding: 1rem;
+  gap:1rem;
+  position:relative;
+}
+
+.card{
+  background:rgba(0,0,0,0.5);
+  padding: 1rem 1.5rem;
+  margin:1rem;
+  border-radius: 2rem;
+}
+
+.card p{
+  margin-top:1rem;
+  line-height:1.5rem;
+}
+
+.home img{
+  min-width:25rem;
+}
+
+
+@media (max-width: 768px){
+  .home{
+    flex-direction: column-reverse;
+    align-items:center;
+  }
+}
