@@ -32,9 +32,9 @@ function Navbar() {
                 <Link to="/product">Product</Link>
               </button>
               <div class="dropdown-content">
-                <Link to="/elve">Transmission Gear</Link>
-                <Link to="/ggpl">Differential Gear</Link>
-                <Link to="/gdgl">Other</Link>
+                <Link to="/transmission">Transmission Gear</Link>
+                <Link to="/differential">Differential Gear</Link>
+                <Link to="/replacement">Replacement Parts</Link>
               </div>
             </div>
           </li>

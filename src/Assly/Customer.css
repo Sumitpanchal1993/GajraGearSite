@@ -1,0 +1,33 @@
+.customerbBase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.cusyCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 20rem;
+    min-height: 15rem;
+    box-shadow: 2px 2px 8px  violet;
+    transition: all 0.5s ease-in-out;
+}
+
+.cusyCard:hover{
+    transform: scale(1.1);
+    animation: infinite;
+}
+
+.cusyCard img{
+    margin: 1rem;
+    width: 10rem;
+}
