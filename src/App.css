@@ -21,3 +21,19 @@
     color: white;
     /* min-height:100vh; */
   }
+
+  button{
+    padding: 0.5rem;
+    background-color: orange;
+    border: none;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px 2px 8px black;
+  }
+
+  button:hover{
+    background: yellowgreen;
+    color: black;
+    box-shadow: -2px -2px 8px black inset;
+  }
+

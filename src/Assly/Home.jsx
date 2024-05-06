@@ -6,7 +6,7 @@ import image from "../Media_File/img_comp.jpg";
 export default function Home() {
   return (
     <div className="base">
-      {/* <Carousel /> */}
+      <Carousel />
       <div className="home">
         <div className="card">
           <h1>Group Profile</h1>

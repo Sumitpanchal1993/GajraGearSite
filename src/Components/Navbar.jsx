@@ -16,9 +16,9 @@ function Navbar() {
         <ul>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
+              <div class="dropbtn">
                 <Link to="/">Gajra Group</Link>
-              </button>
+              </div>
               <div class="dropdown-content">
                 <Link to="/elve">Elve Corporation</Link>
                 <Link to="/ggpl">Gajra Gears</Link>
@@ -28,9 +28,9 @@ function Navbar() {
           </li>
           <li>
             <div class="dropdown">
-              <button class="dropbtn">
+              <div class="dropbtn">
                 <Link to="/product">Product</Link>
-              </button>
+              </div>
               <div class="dropdown-content">
                 <Link to="/transmission">Transmission Gear</Link>
                 <Link to="/differential">Differential Gear</Link>

@@ -21,7 +21,7 @@ export default function Product() {
           <h1>Cutting Tools</h1>
         </div>
         <div>
-          <h1>Tools Room Products</h1>
+          <h1>Tool Room Products</h1>
         </div>
     </div>
   );
