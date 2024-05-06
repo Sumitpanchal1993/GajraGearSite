@@ -2,6 +2,8 @@ import React from "react";
 import P1 from "../Media_File/P1.jpg";
 import P2 from "../Media_File/P2.jpg";
 import P3 from "../Media_File/P3.jpg";
+import P4 from "../Media_File/P4.jpg";
+import P5 from "../Media_File/P5.jpg";
 
 function Carousel() {
   return (
@@ -16,6 +18,12 @@ function Carousel() {
           </div>
           <div className="carousel-item">
             <img src={P3} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={P4} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={P5} className="d-block w-100" alt="..." />
           </div>
         </div>
         <div

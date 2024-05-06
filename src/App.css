@@ -3,25 +3,26 @@
     padding:0;
     box-sizing:border-box;
     font-family: roboto, sans-serif, aria;
-    color: white;
+    /* color: white; */
   }
   
   body {
-      background-image: url(./Media_File/image.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      min-height:100vh;     
+      /* background-image: url(./Media_File/image.jpg); */
+      background-image: linear-gradient(60deg, yellow, orange);
+      /* background-repeat: no-repeat; */
+      /* background-position: center; */
+      /* background-size: cover; */
+      /* min-height:100vh;   */
+ 
   }
   
   
   .base{
-    padding:1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    /* min-height:100vh; */
+    /* padding:1rem; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
   }
 
+  
   button{
     padding: 0.5rem;
     background-color: orange;

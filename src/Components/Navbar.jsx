@@ -9,7 +9,10 @@ function Navbar() {
       <Link to="/">
         <div className="navlogo">
           <img src={Logo} />
-          <h1>GAJRA GROUP OF INDUSTRIES</h1>
+          <div>
+            <h3>GAJRA GROUP OF INDUSTRIES</h3>
+            <h6>Leader of Gear Manufacturer In India</h6>
+          </div>
         </div>
       </Link>
       <div className="navlinks">
